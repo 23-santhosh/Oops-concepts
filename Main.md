@@ -76,7 +76,7 @@ class SavingsAccount extends BankAccount{
 
 public class Main{
     public static void main(String[] args){
-        BankAccount savings = new SavingsAccount("Bharanidharan.M",2000);
+        BankAccount savings = new SavingsAccount("Santhosh.S",2000);
         // savings.displayDetails();
         savings.deposit(2000);
         savings.withdraw(500);
@@ -86,12 +86,4 @@ public class Main{
     }
 }
 ````
-#Output
-```` java[]
-Deposited :2000.0
-Withdrawal Amount :500.0
-Savings Account
-Account Name:Bharanidharan.M
-Balance:3500.0
-Final updated balance:3500.0
-````
+ 
